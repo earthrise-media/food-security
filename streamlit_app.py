@@ -5,11 +5,13 @@ Here's our first attempt at using data to create a table:
 
 import numpy as np
 import pandas as pd
-import geopandas as gpd
 import streamlit as st
 from requests.auth import HTTPBasicAuth
 import requests
-import matplotlib.pyplot as plt
+
+'''# Need dependency file to support these packages'''
+# import geopandas as gpd
+# import matplotlib.pyplot as plt
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
