@@ -5,7 +5,7 @@ Here's our first attempt at using data to create a table:
 
 import numpy as np
 import pandas as pd
-import geopandas as gpd
+# import geopandas as gpd
 import streamlit as st
 from requests.auth import HTTPBasicAuth
 import requests
