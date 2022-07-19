@@ -8,10 +8,9 @@ import pandas as pd
 import streamlit as st
 from requests.auth import HTTPBasicAuth
 import requests
-
-'''# Need dependency file to support these packages'''
-# import geopandas as gpd
-# import matplotlib.pyplot as plt
+# Need dependency file to support these packages
+import geopandas as gpd
+import matplotlib.pyplot as plt
 
 df = pd.DataFrame({
   'first column': [1, 2, 3, 4],
