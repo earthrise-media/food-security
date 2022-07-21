@@ -20,9 +20,8 @@ import geopandas as gpd
 # df
 # Draw a title and some text to the app:
 '''
-# This is the document title
-
-This is some _markdown_.
+# USDA data API Experiments
+Work in progress
 '''
 
 # df = pd.DataFrame({'col1': [1,2,3]})
@@ -68,7 +67,7 @@ data = requests.get(url=URL, headers=headers_dict)
 # converts to pandas df
 countrydf = pd.read_json(data.text)
 # all countries read from USDA website
-st.table(countrydf)
+# st.table(countrydf)
 # this populates menu with country names
 chosencountry = st.multiselect("country", countrydf["countryDescription"])
 # This converts the chosen country names into country codes.
@@ -77,6 +76,7 @@ for c in chosencountry:
 
 st.write('You selected:', codelist)
 
+'''### Price of wheat from chosen country over 2021'''
 for c in codelist:
   # ccyurl = "https://apps.fas.usda.gov/OpenData/exports/commodityCode/{commodityCode}/countryCode/{countryCode}/marketYear/{marketYear}". format(commodityCode, c, marketYear)
   ccyurl = "https://apps.fas.usda.gov/OpenData/api/esr/exports/commodityCode/107/countryCode/"+str(c)+"/marketYear/2021"
