@@ -1,3 +1,4 @@
+// current dictionary schema from USDA data
 {
     "CANADA": [{
             "code": "1220"
@@ -24,3 +25,11 @@
         }
     ]
 }
+
+// would something like this be a better schema?
+{
+    country: {
+        'year': {
+            'commodity': { 'dataframe1': 'df', 'dataframe2': 'df', }
+        },
+    }

@@ -1,8 +1,3 @@
-"""
-# My first app
-Here's our first attempt at using data to create a table:
-"""
-
 import cmath
 import numpy as np
 import pandas as pd
@@ -53,14 +48,12 @@ wheat = "https://apps.fas.usda.gov/OpenData/api/esr/exports/commodityCode/101/al
 # endpointlist = [regions, countries, commodities, unitsofmeasure, wheat]
 dfd = {}
 def create_df(country, commodity, year):
-# probably should do the for loops outside the create_df function
         requesturl = "https://apps.fas.usda.gov/OpenData/api/esr/exports/commodityCode/"+str(commodity)+"/countryCode/"+str(country)+"/marketYear/"+str(year)
         print(requesturl)
         d = requests.get(url=requesturl, headers=key)
         dfd_name = "df_{}".format(str(country)+"_"+str(commodity)+"_"+str(year))
         print (dfd_name)
         dfd[dfd_name] = pd.read_json(d.text).set_index('weekEndingDate')
-        
         return (dfd)
         # ccydf = pd.read_json(d.text).set_index('weekEndingDate')
 #  "df_{}".format(str(country)+"_"str(commodity)+"_"+str(year))
@@ -70,12 +63,6 @@ marketYear = "2021"
 ccydf = pd.DataFrame()
 selection_dict = {}
 commodity_dict = {}
-# for u in endpointlist:
-#     headers_dict = {"API_KEY": "aefd68b9-cfdc-4c9e-a800-b457ff5adade"}
-#     URL = u
-#     data = requests.get(url=URL, headers=headers_dict)
-#     # create list of dictionaries.
-#     st.table(pd.read_json(data.text))
 
 # USDA api key
 key = {"API_KEY": "aefd68b9-cfdc-4c9e-a800-b457ff5adade"}
@@ -88,10 +75,6 @@ country_list = pd.read_json(country_request.text)
 commodity_list = pd.read_json(commodity_request.text)
 year_list = [item for item in range(2000, date.today().year+1)]
 
-# I don't think i need to pre create list
-# selected_countries = []
-# selected_commodity = []
-# selected_years = []
 st.write(commodity_list)
 
 # creates the menus
@@ -119,19 +102,21 @@ for name in selected_countries:
   selection_dict[name] = code_dict, commodity_dict, year_dict, df_dict
   
 
-
+'''
+## Accumulated exports of selected countries
+Errors vaguely if data does not exist
+'''
 if selected_countries and selected_commodity and selected_years:
   chart_df = pd.DataFrame()
   for n in selection_dict:
     for cm in commodity_dict["commodity"]:
       for y in year_dict["year"]:
-        
         ctry_name = n
         ctry_code = selection_dict[n][0]["code"]
         com_name = next(iter(cm.keys()))
         com_code = next(iter(cm.values()))
         df_dict["df"].append(create_df(ctry_code, com_code, y))
-        # st.write(dfd["df_"+str(ctry_code)+"_"+str(com_code)+"_"+str(y)])
+        st.write(dfd["df_"+str(ctry_code)+"_"+str(com_code)+"_"+str(y)])
         chart_df[n] = dfd["df_"+str(ctry_code)+"_"+str(com_code)+"_"+str(y)]["accumulatedExports"]
         # print (next(iter(selection_dict[n][3].values())))
 
