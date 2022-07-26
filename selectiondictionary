@@ -1,0 +1,35 @@
+// current dictionary schema from USDA data
+{
+    "CANADA": [{
+            "code": "1220"
+        },
+        {
+            "commodity": [{
+                    "All Wheat": "107"
+                },
+                {
+                    "Wheat - Mixed": "106"
+                },
+                {
+                    "Sorghum": "701"
+                }
+            ]
+        },
+        {
+            "year": [
+                2017
+            ]
+        },
+        {
+            "df": []
+        }
+    ]
+}
+
+// would something like this be a better schema?
+{
+    country: {
+        'year': {
+            'commodity': { 'dataframe1': 'df', 'dataframe2': 'df', }
+        },
+    }
