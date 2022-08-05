@@ -6,20 +6,10 @@ import streamlit as st
 import requests
 from datetime import date
 
-# def create_df(country, commodity, year):
-#         requesturl = "https://apps.fas.usda.gov/OpenData/api/esr/exports/commodityCode/"+str(commodity)+"/countryCode/"+str(country)+"/marketYear/"+str(year)
-#         print(requesturl)
-#         d = requests.get(url=requesturl, headers=key)
-#         dfd_name = "df_{}".format(str(country)+"_"+str(commodity)+"_"+str(year))
-#         print (dfd_name)
-#         dfd[dfd_name] = pd.read_json(d.text).set_index('weekEndingDate')
-#         return (dfd)
-
 def get_usda_data(endpoint_url):
     # USDA API Key
     key = {"API_KEY": "aefd68b9-cfdc-4c9e-a800-b457ff5adade"}
     request = requests.get(url=endpoint_url, headers=key)
-    print(request.headers['Content-Length'])
     # convert response to pandas dataframe
     if int(request.headers['Content-Length']) > 2:
       return (pd.read_json(request.text))
@@ -34,6 +24,7 @@ units_url = "https://apps.fas.usda.gov/OpenData/api/esr/unitsOfMeasure"
 
 # USDA api key
 key = {"API_KEY": "aefd68b9-cfdc-4c9e-a800-b457ff5adade"}
+
 # probably should add a country vs. region vs. rest of world selection here at some point
 country_request = requests.get(url=country_url, headers=key)
 commodity_request = requests.get(url=commodity_url, headers=key)
