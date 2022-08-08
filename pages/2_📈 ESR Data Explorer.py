@@ -16,6 +16,9 @@ def get_usda_data(endpoint_url):
     else: 
       return (False)
 
+page_title = st.sidebar.empty()
+page_title.header("ESR Data Explorer")
+
 # Endpoints
 # regions = "https://apps.fas.usda.gov/OpenData/api/esr/regions"
 country_url = "https://apps.fas.usda.gov/OpenData/api/esr/countries"
