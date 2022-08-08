@@ -18,12 +18,12 @@ def get_usda_data(endpoint_url):
         print ("Nothing Found")
         return (False)
 
-st.set_page_config(
-	layout="wide",  # Can be "centered" or "wide". In the future also "dashboard", etc.
-	initial_sidebar_state="auto",  # Can be "auto", "expanded", "collapsed"
-	page_title="PSD Data Explorer",  # String or None. Strings get appended with "• Streamlit". 
-	page_icon="./assets/img/earthrise_logo.png",  # String, anything supported by st.image, or None.
-)
+# st.set_page_config(
+# 	layout="wide",  # Can be "centered" or "wide". In the future also "dashboard", etc.
+# 	initial_sidebar_state="auto",  # Can be "auto", "expanded", "collapsed"
+# 	page_title="PSD Data Explorer",  # String or None. Strings get appended with "• Streamlit". 
+# 	page_icon="./assets/img/earthrise_logo.png",  # String, anything supported by st.image, or None.
+# )
 page_t = st.sidebar.empty()
 page_t.header("PSD Data Explorer")
 
