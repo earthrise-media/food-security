@@ -16,3 +16,4 @@ st.set_page_config(
 )
 
 st.title("USDA Data Exploration Tool")
+st.write("USDA’s Foreign Agricultural Service data API portal provides users the ability to obtain programmatic access to publicly available agricultural commodity data from the Export Sales Report (ESR), Global Agricultural Trade System (GATS), and Production, Supply & Distribution (PSD) databases. This app is intended to allow users to browse data from the API on demand. Check out the sections on the left to get started.")
