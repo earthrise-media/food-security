@@ -14,7 +14,7 @@ Visualizing data to better monitor issues around food security
 
 More data recommended by FAS:
 10. [Global Agricultural Information Network](https://gain.fas.usda.gov/#/home)
-11. [](https://apps.fas.usda.gov/psdonline/circulars/production.pdf)
+11. [Circulars Publication](https://apps.fas.usda.gov/psdonline/circulars/production.pdf) (information on PSD data)
 12. [Global Agricultural & Disaster Assessment System (GADAS)](https://geo.fas.usda.gov/GADAS/index.html)
 13. [Global Agricultural Trade System (GATS)](https://apps.fas.usda.gov/gats/default.aspx)
 14. [UN Comtrade Database](https://comtrade.un.org/)
