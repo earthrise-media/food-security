@@ -1,4 +1,4 @@
-# food-security
+# Food Security Working Repo
 Visualizing data to better monitor issues around food security
 
 ## Below is a preliminary list of sources that we are exploring:
