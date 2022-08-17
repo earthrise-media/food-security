@@ -1,5 +1,5 @@
 <template>
   <div>
-    <MapboxMap />
+    <NuxtPage />
   </div>
 </template>
