@@ -21,13 +21,13 @@ commodity_url = "https://comtrade.un.org/Data/cache/classificationHS.json"
 country_request = requests.get(url=country_url)
 country_request.encoding='utf-8-sig'
 country_df = pd.json_normalize(country_request.json()["results"])
-st.write(country_df)
+# st.write(country_df)
 
 # todo perhaps limit commodity list to 2 digit commodity codes
 commodity_request = requests.get(url=commodity_url)
 commodity_request.encoding='utf-8-sig'
 commodity_df = pd.json_normalize(commodity_request.json()["results"])
-st.write(commodity_df)
+# st.write(commodity_df)
 
 year_list = [item for item in range(2000, date.today().year+1)]
 
