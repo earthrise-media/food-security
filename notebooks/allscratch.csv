@@ -1,0 +1,503 @@
+pfCode,yr,period,periodDesc,aggrLevel,IsLeaf,rgCode,rgDesc,rtCode,rtTitle,rt3ISO,ptCode,ptTitle,pt3ISO,ptCode2,ptTitle2,pt3ISO2,cstCode,cstDesc,motCode,motDesc,cmdCode,cmdDescE,qtCode,qtDesc,qtAltCode,qtAltDesc,TradeQuantity,AltQuantity,NetWeight,GrossWeight,TradeValue,CIFValue,FOBValue,estCode
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,28524264,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,8918871,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,3129633,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,339933606,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,86904406,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,33379639,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,4915,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,5263343,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,62350012,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,12875,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,943816625,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,312763421,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,844937021,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,126684779,,,0
+H5,2021,2021,2021,2,0,3,Re-Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1412,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1023,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,930742349,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,2259378904,,,4
+H5,2021,2021,2021,2,0,3,Re-Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,26641,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,215894729,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,491407083,,,0
+H5,2021,2021,2021,2,0,3,Re-Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,422991,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,158141,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,16290401,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,37526627,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1979194068,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,294894829,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,2114,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,25189199,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,43037565,,,0
+H5,2021,2021,2021,2,0,3,Re-Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,20588,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,5371,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,3602545298,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,,,87102565,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,21881,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,242877750,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,153122988,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,144082721,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,80839392,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1980,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,8984784,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,398216311,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,1991680,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,26249664,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,45703954,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,0,World,WLD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,62837339,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,468605,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,6632787,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,11533,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,1419203,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,13805383,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,774,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,15520598,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,79332514,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,35794,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,458,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,4701985,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,780065,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,15055359,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,139411685,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,53980337,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,158141,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,1259193,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,122052368,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,2240182,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,11048004,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,118623313,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,57777278,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,152421,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,184,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,12160,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,13338950,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,14655793,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,135237,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,4,Afghanistan,AFG,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,4658079,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,142071,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,1594,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,191665,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,258,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,662,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,1725128,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,10004,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,322,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,1348,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,8,Albania,ALB,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,362404,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,10152,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,334576,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,84178,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,217286,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,4399722,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,610,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,12,Algeria,DZA,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,174905,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,18734,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,343033,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,28142,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,1276666,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,3118,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,24,Angola,AGO,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,88556,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,28,Antigua and Barbuda,ATG,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,5465,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,28,Antigua and Barbuda,ATG,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,6970,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,31,Azerbaijan,AZE,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,295360,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,31,Azerbaijan,AZE,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,376222,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,31,Azerbaijan,AZE,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,341708,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,59812,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,815481,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,59141,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,52399,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,52664483,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,16725193,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,71452,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,183424,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,18661,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,539987,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,11455150,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,32,Argentina,ARG,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,94887,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,453215,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,3195934,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,697070,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,1980412,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,23936,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,20542,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,252227232,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,57622,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,108563,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,12857,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,166073,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,86091,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,153320,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,4616152,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,976115,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,13711935,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,195484,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,41190,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,67945,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,3533912,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,79518713,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,89959,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,631323,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,2293942,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,36,Australia,AUS,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,933642,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,21745,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,81035,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,796245,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,1247068,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,8477,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,5549,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,80248,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,40,Austria,AUT,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,5191,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,44,Bahamas,BHS,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,82489,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,44,Bahamas,BHS,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,704,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,42381,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,91374,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,138,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,7383,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,61394,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,2911647,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1072596,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,5193136,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,18830,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,9692,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,16501516,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,11940,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,505764,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,10336107,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,589,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,690322,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,2219,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,285050,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,109370,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,2427963,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,48,Bahrain,BHR,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,626067,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,12664,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,342437,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,1051687,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,609728,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,607251,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,930416,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,1381531,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,582710,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,93998,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,536155,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,723077,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,2621205,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,2190395,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,38307,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,1493,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,50,Bangladesh,BGD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,14020,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,52,Barbados,BRB,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,4198,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,118608,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,47626,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,17577,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,2189,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,292552,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,3544063,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,88350487,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,365232,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,47284,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,278520,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,5877,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,951174,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,107229,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,9542,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,976196,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,110524,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,18871,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,139163,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,73436,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,63721,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,1317737,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,516180,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,4045643,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1010576,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,56,Belgium,BEL,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,187043,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,64,Bhutan,BTN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,16036,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,68,Bolivia (Plurinational State of),BOL,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,413,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,70,Bosnia Herzegovina,BIH,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,5597,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,70,Bosnia Herzegovina,BIH,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,8627,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,72,Botswana,BWA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,33201,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,85356,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,166684,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,21451,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,105615,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,16413024,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,16129205,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,251866,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,15914119,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,247343,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,37573,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,28849,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,912724741,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,94334,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,8154435,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,559687,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,153991,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,27686,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,76,Brazil,BRA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,133110,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,84,Belize,BLZ,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1249950,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,90,Solomon Isds,SLB,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,7601,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,90,Solomon Isds,SLB,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,23376,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,543,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,7071,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,135176,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,329610,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,21147,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,81788,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,96,Brunei Darussalam,BRN,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,1835,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,95302,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,37552,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1027289,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,25507,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,154961,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,13610,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,91801762,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,35183,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,4143177,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,496117,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,100,Bulgaria,BGR,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,12091,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,169309,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,86378,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,364250,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,4282,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,7450,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,104,Myanmar,MMR,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,19317,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,108,Burundi,BDI,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,9800858,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,112,Belarus,BLR,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,210325,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,112,Belarus,BLR,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,292218,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,112,Belarus,BLR,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,6527,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,112,Belarus,BLR,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,86769,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,112,Belarus,BLR,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1316503,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,116,Cambodia,KHM,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,60921,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,120,Cameroon,CMR,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,699796,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,120,Cameroon,CMR,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1709413,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,120,Cameroon,CMR,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,808129,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,120,Cameroon,CMR,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,121430,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,120,Cameroon,CMR,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,208977,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,872915,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,7792,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,290423,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,5138090,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1040795,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,4448161,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,717,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,1910010,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,653827,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,40946,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,125385,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,239272433,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,21180,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,6755,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,390356,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,5081574,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,395864,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,12611640,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,49734,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,6371580,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,731282,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,136146,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,104191412,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,1648258,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,581719,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,124,Canada,CAN,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,77136,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,132,Cabo Verde,CPV,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,162573,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,140,Central African Rep.,CAF,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,766713,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1440840,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1874544,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,4580826,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,4341594,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,476328,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,460705,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,360302,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,160405,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,214741,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,36717,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,527508,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,10504542,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1771594,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1310567,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1023,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,49837796,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,1524,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,1920,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,763,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,72299,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,16280,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,3628,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,382569,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,16614,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,144,Sri Lanka,LKA,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,376404,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,148,Chad,TCD,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,154129,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,775143,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,127418,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,591212,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,365284,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,146466,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,99736,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1020191,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,2166,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,42526,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,1950,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,1383021,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,9912,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,6830,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,48186,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,152,Chile,CHL,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,49606,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1518960,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,80426,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1980,,,4
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,11318818,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,804835,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,14848,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,160742372,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,21039,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,1333105,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,41119067,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,381244057,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,103659009,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,202550,,,0
+H5,2021,2021,2021,2,0,3,Re-Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,1412,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,158146,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,98257,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,6514,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,1340888,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,23299,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,71050315,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,108568,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,366710,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,20147953,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,12875,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,20759203,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,152520337,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,8895966,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,65621543,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,3013459,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,145576,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,12841489,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,980,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,3311111,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,17414952,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,156,China,CHN,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,2887171,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,156,China,CHN,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,5267512,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,35530,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,45321,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,7584,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,66941,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,112642,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,03,"Fish and crustaceans, molluscs and other aquatic invertebrates",1,No Quantity,,,0,,0.0,,924,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,170,Colombia,COL,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,62258,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,174,Comoros,COM,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,43085,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,174,Comoros,COM,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,2728,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,174,Comoros,COM,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,5289546,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,174,Comoros,COM,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,42191,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,174,Comoros,COM,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,15965,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,178,Congo,COG,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,50597,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,178,Congo,COG,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,50129,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,180,Dem. Rep. of the Congo,COD,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,259657,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,180,Dem. Rep. of the Congo,COD,,,,,,,,02,Meat and edible meat offal,1,No Quantity,,,0,,0.0,,29419,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,188,Costa Rica,CRI,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,10859,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,188,Costa Rica,CRI,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,581,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,191,Croatia,HRV,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,59601,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,191,Croatia,HRV,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,911742,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,191,Croatia,HRV,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,154558,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,191,Croatia,HRV,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,108873,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,16887,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,1829,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,8497,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,01,Animals; live,1,No Quantity,,,0,,0.0,,2548,,,4
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,405109,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,26960,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,196,Cyprus,CYP,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,177767,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1776,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,52438,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,584,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,247717,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,49,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,116608,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,7125,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,15081,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,203,Czechia,CZE,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,68505,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,204,Benin,BEN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,19152601,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,204,Benin,BEN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,293369,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,204,Benin,BEN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,2258,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,103785,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,1302,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,1129064,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,3278449,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,150070,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,5218,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,2329251,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,1308361,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,7224,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,4783673,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,128361,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,3227,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,33010,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,5111,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,2712009,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,16165,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,75817,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,208,Denmark,DNK,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,136098,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,214,Dominican Rep.,DOM,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,3988,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,214,Dominican Rep.,DOM,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,112062,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,218,Ecuador,ECU,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,138370,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,218,Ecuador,ECU,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,26127,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,218,Ecuador,ECU,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,960,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,218,Ecuador,ECU,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,108,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,218,Ecuador,ECU,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,57837,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,222,El Salvador,SLV,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,51,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,222,El Salvador,SLV,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,85362,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,226,Equatorial Guinea,GNQ,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,169944,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,226,Equatorial Guinea,GNQ,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,56234,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,226,Equatorial Guinea,GNQ,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,26008,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,226,Equatorial Guinea,GNQ,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,3929,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,226,Equatorial Guinea,GNQ,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,2174,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,231,Ethiopia,ETH,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,919674,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,231,Ethiopia,ETH,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,6404946,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,231,Ethiopia,ETH,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,33327,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,233,Estonia,EST,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,28855,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,233,Estonia,EST,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,121608,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,242,Fiji,FJI,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,120732,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,242,Fiji,FJI,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,18316,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,242,Fiji,FJI,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,10252,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,242,Fiji,FJI,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,20308,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,44307,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,53303,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,473760,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,19347,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,2532,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,246,Finland,FIN,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,153198,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,18819261,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,10,Cereals,1,No Quantity,,,0,,0.0,,24027109,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,766151,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,23279,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,4949180,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,14013,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,05,Animal originated products; not elsewhere specified or included,1,No Quantity,,,0,,0.0,,560519,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,8400351,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,1024,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,04,"Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included",1,No Quantity,,,0,,0.0,,4915,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,01,Animals; live,1,No Quantity,,,0,,,,2443970,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,128370,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,11,"Products of the milling industry; malt, starches, inulin, wheat gluten",1,No Quantity,,,0,,0.0,,183445,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,08,"Fruit and nuts, edible; peel of citrus fruit or melons",1,No Quantity,,,0,,0.0,,581751,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,794542,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,283227,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,2213760,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,13,"Lac; gums, resins and other vegetable saps and extracts",1,No Quantity,,,0,,0.0,,63838,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,83188,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,65375,,,0
+H5,2021,2021,2021,2,0,4,Re-Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,15,Animal or vegetable fats and oils and their cleavage products; prepared animal fats; animal or vegetable waxes,1,No Quantity,,,0,,0.0,,4129,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,3699316,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,884082,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,1440844,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,523433,,,0
+H5,2021,2021,2021,2,0,1,Import,586,Pakistan,PAK,251,France,FRA,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,467721,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,251,France,FRA,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,596357,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,19,"Preparations of cereals, flour, starch or milk; pastrycooks' products",1,No Quantity,,,0,,0.0,,403806,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,20,"Preparations of vegetables, fruit, nuts or other parts of plants",1,No Quantity,,,0,,0.0,,28416,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,16,"Meat, fish or crustaceans, molluscs or other aquatic invertebrates; preparations thereof",1,No Quantity,,,0,,0.0,,18747,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,17,Sugars and sugar confectionery,1,No Quantity,,,0,,0.0,,1591745,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,12,"Oil seeds and oleaginous fruits; miscellaneous grains, seeds and fruit, industrial or medicinal plants; straw and fodder",1,No Quantity,,,0,,0.0,,17485,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,07,Vegetables and certain roots and tubers; edible,1,No Quantity,,,0,,0.0,,184,,,0
+H5,2021,2021,2021,2,0,2,Export,586,Pakistan,PAK,262,Djibouti,DJI,,,,,,,,09,"Coffee, tea, mate and spices",1,No Quantity,,,0,,0.0,,36134,,,0
