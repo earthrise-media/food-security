@@ -44,6 +44,12 @@ def make_treegraph (dataframe, Year, Type):
      # remove outline color
      fig.update_traces(marker_line_color='rgb(0,0,0)', marker_line_width=.1)
      return(fig)
+def make_yoygraph (dataframe, Type):
+    fig = px.bar(dataframe, x="period", y="TradeValue", color="cmdDescE", color_discrete_map=color_dict, title=f'Year Over Year {Type}', labels={"period": "Year", "TradeValue": "Imports (USD)"})
+    fig.update_layout(showlegend=False)
+    fig.update_traces(marker_line_color='white', marker_line_width=0.0)
+    fig.update_layout(margin = dict(t=50, l=0, r=5, b=0))
+    return(fig)
 
 def commodity_charts(country_code):
     year = "2021"
@@ -52,20 +58,19 @@ def commodity_charts(country_code):
     food_code_string = "01%2C02%2C03%2C04%2C05%2C07%2C08%2C09%2C10%2C11%2C12%2C13%2C15%2C16%2C17%2C19%2C20"
     import_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=1&cc={food_code_string}"
     export_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=2&cc={food_code_string}"
+    yoy_import_url = f"http://comtrade.un.org/api/get?max=502&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=1&cc={food_code_string}"
+    yoy_export_url = f"http://comtrade.un.org/api/get?max=502&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=2&cc={food_code_string}"
     import_df = get_comtrade_data(import_url)
-    try:
-        import_df = import_df[import_df['ptTitle'].str.match('World') == False]
-
-    except:
-        pass
+    import_df = import_df[import_df['ptTitle'].str.match('World') == False]
     export_df = get_comtrade_data(export_url)
-    try:
-        export_df = export_df[export_df['ptTitle'].str.match('World') == False]
-    except:
-        pass
+    export_df = export_df[export_df['ptTitle'].str.match('World') == False]
+    yoy_import_df = get_comtrade_data(yoy_import_url)
+    yoy_export_df = get_comtrade_data(yoy_export_url)
     import_treegraph = make_treegraph(import_df, year, "Imports")
     export_treegraph = make_treegraph(export_df, year, "Exports")
-    return [import_treegraph, export_treegraph]
+    yoy_import_graph = make_yoygraph(yoy_import_df, "Imports")
+    yoy_export_graph = make_yoygraph(yoy_export_df, "Exports")
+    return [import_treegraph, yoy_import_graph, export_treegraph, yoy_export_graph]
     
 page_title = st.sidebar.empty()
 page_title.header("Comtrade Data Overviews")
@@ -86,12 +91,27 @@ region = st.selectbox(
      'Region of Interest',
      (country_df["text"]),)
 
+if st.button('Make Charts'):
+    country_code = country_df.loc[country_df['text'] == region, 'id'].item()
+    if region == "World" or region == "All":
+        st.write(f"{region} is not a valid country")
+    else:
+        try:
+            charts = commodity_charts(country_code)
+            st.plotly_chart(charts[0], use_container_width=True)
+            st.plotly_chart(charts[1], use_container_width=True)
+            st.plotly_chart(charts[2], use_container_width=True)
+            st.plotly_chart(charts[3], use_container_width=True)
+        except:
+            st.write(f"{region} does not have updated data")
 
-country_code = country_df.loc[country_df['text'] == region, 'id'].item()
-if country_code != "all":
-    charts = commodity_charts(country_code)
-    st.plotly_chart(charts[0], use_container_width=True)
-    st.plotly_chart(charts[1], use_container_width=True)
+# country_code = country_df.loc[country_df['text'] == region, 'id'].item()
+# if country_code != "all":
+#     charts = commodity_charts(country_code)
+#     st.plotly_chart(charts[0], use_container_width=True)
+#     st.plotly_chart(charts[1], use_container_width=True)
+#     st.plotly_chart(charts[2], use_container_width=True)
+#     st.plotly_chart(charts[3], use_container_width=True)
 
 # # todo run on button click
 # if year_string and country_code and commodity_code:
