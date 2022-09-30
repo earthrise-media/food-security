@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import requests
 from datetime import date
-import plotly.figure_factory as ff
 import plotly.express as px
 import numpy as np
 
@@ -54,10 +53,16 @@ def commodity_charts(country_code):
     import_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=1&cc={food_code_string}"
     export_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=2&cc={food_code_string}"
     import_df = get_comtrade_data(import_url)
-    import_df = import_df[import_df['ptTitle'].str.match('World') == False]
+    try:
+        import_df = import_df[import_df['ptTitle'].str.match('World') == False]
+
+    except:
+        pass
     export_df = get_comtrade_data(export_url)
-    export_df = export_df[export_df['ptTitle'].str.match('World') == False]
-    
+    try:
+        export_df = export_df[export_df['ptTitle'].str.match('World') == False]
+    except:
+        pass
     import_treegraph = make_treegraph(import_df, year, "Imports")
     export_treegraph = make_treegraph(export_df, year, "Exports")
     return [import_treegraph, export_treegraph]
@@ -74,18 +79,19 @@ country_request.encoding='utf-8-sig'
 country_df = pd.json_normalize(country_request.json()["results"])
 # st.write(country_df)
 
-
-# year_list = [item for item in range(2000, date.today().year+1)]
+# remove row with text matching all from country_df
+# country_df = country_df[country_df['text'].str.match('All') == False]
 
 region = st.selectbox(
      'Region of Interest',
-     (country_df["text"]))
+     (country_df["text"]),)
+
 
 country_code = country_df.loc[country_df['text'] == region, 'id'].item()
-
-charts = commodity_charts(country_code)
-st.plotly_chart(charts[0], use_container_width=True)
-st.plotly_chart(charts[1], use_container_width=True)
+if country_code != "all":
+    charts = commodity_charts(country_code)
+    st.plotly_chart(charts[0], use_container_width=True)
+    st.plotly_chart(charts[1], use_container_width=True)
 
 # # todo run on button click
 # if year_string and country_code and commodity_code:
