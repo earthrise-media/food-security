@@ -64,10 +64,10 @@ def commodity_charts(country_code):
     multiyear_string = "2021%2C2020%2C2019%2C2018%2C2017"
     # this is a string of all the two digit commodity codes that I consider to be food
     food_code_string = "01%2C02%2C03%2C04%2C05%2C07%2C08%2C09%2C10%2C11%2C12%2C13%2C15%2C16%2C17%2C19%2C20"
-    import_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=1&cc={food_code_string}"
-    export_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=2&cc={food_code_string}"
-    yoy_import_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=1&cc={food_code_string}"
-    yoy_export_url = f"http://comtrade.un.org/api/get?max=1999&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=2&cc={food_code_string}"
+    import_url = f"http://comtrade.un.org/api/get?max=10000&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=1&cc={food_code_string}"
+    export_url = f"http://comtrade.un.org/api/get?max=10000&type=C&freq=A&px=HS&ps={year}&r={country_code}&p=all&rg=2&cc={food_code_string}"
+    yoy_import_url = f"http://comtrade.un.org/api/get?max=10000&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=1&cc={food_code_string}"
+    yoy_export_url = f"http://comtrade.un.org/api/get?max=10000&type=C&freq=A&px=HS&ps={multiyear_string}&r={country_code}&p=0&rg=2&cc={food_code_string}"
     import_df = get_comtrade_data(import_url)
     export_df = get_comtrade_data(export_url)
     yoy_import_df = get_comtrade_data(yoy_import_url)
