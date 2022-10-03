@@ -95,7 +95,6 @@ def commodity_charts(country_code):
     else:
         export_treegraph = False
     if yoy_import_df.shape[0] > 1:
-        # sort yoy_import_df by period
         yoy_import_df = yoy_import_df.sort_values(by=['period'])
         yoy_import_graph = make_yoygraph(yoy_import_df, "Imports")
     else:
@@ -132,12 +131,6 @@ region = st.selectbox(
 
 if st.button('Make Charts'):
     country_code = country_df.loc[country_df['text'] == region, 'id'].item()
-    # charts = commodity_charts(country_code)
-    # st.plotly_chart(charts[4], use_container_width=True)
-    # st.plotly_chart(charts[0], use_container_width=True)
-    # st.plotly_chart(charts[1], use_container_width=True)
-    # st.plotly_chart(charts[2], use_container_width=True)
-    # st.plotly_chart(charts[3], use_container_width=True)
     if region == "World" or region == "All":
         st.write(f"{region} is not a valid country")
     else:
@@ -145,7 +138,7 @@ if st.button('Make Charts'):
         if charts[4] != False:
             st.plotly_chart(charts[4], use_container_width=True)
         else:
-            st.write(f"No data for total imports and exports in {region}")
+            st.write(f"No data for total imports and exports in 2021 in {region}")
         if charts[0] != False:
             st.plotly_chart(charts[0], use_container_width=True)
         else:
