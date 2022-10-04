@@ -7,7 +7,7 @@ import numpy as np
 
 
 color_dict = {
-            "(?)":"white",
+            "(?)":"#F1EEE7",
             "Animals; live":"#807E5B",
             "Meat and edible meat offal":"#C9938B",
             "Dairy produce; birds' eggs; natural honey; edible products of animal origin, not elsewhere specified or included":"#99B7CF",
@@ -28,7 +28,6 @@ color_dict = {
             "Preparations of vegetables, fruit, nuts or other parts of plants":"#E95F85",
             "Import": "#3C787E",
             "Export": "#241623"
-
             }
 
 def get_comtrade_data(endpoint_url):
@@ -54,7 +53,8 @@ def make_yoygraph (dataframe, Type):
 def make_sunburst_chart (df1, df2):
     # join df1 and df2
     total_df = pd.concat([df1, df2])
-    fig = px.sunburst(total_df, path=['rgDesc', 'cmdDescE'], values='TradeValue', color='rgDesc', color_discrete_map=color_dict, title="Imports and Exports by Commodity")
+    fig = px.sunburst(total_df, path=['rgDesc', 'cmdDescE'], values='TradeValue', color='cmdDescE', color_discrete_map=color_dict, title="Imports and Exports by Commodity")
+    fig.update_traces(marker_line_color='#b8baba', marker_line_width=0.2)
     fig.update_layout(margin = dict(t=50, l=0, r=0, b=0))
     # fig.update_traces(color_discrete_map=color_dict, title='Total Imports and Exports')
     return(fig)
