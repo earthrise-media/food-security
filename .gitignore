@@ -4,3 +4,6 @@
 #MacOS
 .DS_Store
 /.ipynb_checkpoints
+
+# QGIS files
+.qgz
