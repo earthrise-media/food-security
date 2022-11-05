@@ -63,7 +63,7 @@ map.on('load', () => {
     var reportvar = dateslist[num] + "-CS"
     map.addSource('ea-data', {
         type: 'geojson',
-        data: '../../fewsnet-experiments/data/join_experiments/ea_grid_1_ffill.geojson'
+        data: 'https://github.com/earthrise-media/food-security/blob/2e653c3057bcdad6e64550d2c23282129f67e39c/fewsnet-experiments/data/join_experiments/ea_grid_1_ffill.geojson'
     });
 
     // create a mapbox layer for each entry in the dateslist
@@ -109,8 +109,6 @@ map.on('load', () => {
     };
     // map.setPaintProperty("2016-10-CS", 'fill-opacity', 0.8)
     console.log(dateslist.length)
-    // create a variable that is attached to html object
-    var slider = document.getElementById('slider');
 
     // print hello world to the console every 2 seconds 10 times
     var i = 0;
@@ -133,93 +131,5 @@ map.on('load', () => {
     }, 1000);
 
 
-    // for (var i = 0; i < dateslist.length; i++) {
-    //     setInterval(function () {
 
-    //         console.log(i)
-    //         var oldreport = dateslist[i - 1] + "-CS"
-    //         var newreport = dateslist[i] + "-CS"
-    //         if (i != 0) {
-    //             map.setPaintProperty(oldreport, 'fill-opacity', 0.0)
-    //         };
-    //         map.setPaintProperty(newreport, 'fill-opacity', 0.8)
-    //         console.log(newreport)
-
-    //     }, 1000);
-    // };
-
-
-
-    // map.addLayer({
-    //     id: 'ea-layer',
-    //     // References the GeoJSON source defined above
-    //     // and does not require a `source-layer`
-    //     source: 'ea-data',
-    //     type: 'fill',
-    //     layout: {},
-    //     // filter: [],
-
-    //     paint: {
-    //         "fill-color-transition": {
-    //             "duration": 300,
-    //             "delay": 0
-    //           },
-    //         "fill-color": [
-    //             "match",
-    //             ["get", reportvar],
-    //             [1],
-    //             "#c6f9c6",
-    //             [2],
-    //             "#f9e21c",
-    //             [3],
-    //             "#e26d00",
-    //             [4],
-    //             "#c10000",
-    //             [5],
-    //             "#551010",
-    //             "hsla(0, 0%, 100%, 0)"
-    //         ],
-    //         "fill-opacity": 0.6,
-    //     }
-    // },"mapbox-mapbox-terrain-dem-v1");
-
-    // // change num every 1 second
-    // for (var i = 0; i < dateslist.length; i++) {
-    //     console.log (i)
-    //     var reportvar = dateslist[i] + "-CS"
-    //     setInterval(function () {
-    //         // map.setFilter(reportvar, ['==', reportvar, 1])
-    //         map.setPaintProperty(reportvar, 'fill-opacity', 0.6)
-    //         // console.log (reportvar)
-    //     }, 
-    //     1000);
-    //     // setTimeout(function() {
-    //     //     map.setPaintProperty(reportvar, 'fill-opacity', 0.6);
-    //     //     console.log(reportvar)
-    //     // }, 1000);
-    // }
-    // setInterval(function () {
-    //     console.log(num)
-    //     console.log(reportvar)
-    //     map.setPaintProperty('ea-layer', 'fill-color',
-    //         [
-    //             "match",
-    //             ["get", reportvar],
-    //             [1],
-    //             "#c6f9c6",
-    //             [2],
-    //             "#f9e21c",
-    //             [3],
-    //             "#e26d00",
-    //             [4],
-    //             "#c10000",
-    //             [5],
-    //             "#551010",
-    //             "hsla(0, 0%, 100%, 0)"
-    //         ],
-
-    //     )
-    //     num = (num + 1) % dateslist.length
-    //     reportvar = dateslist[num] + "-CS"}, 
-    //     1000);
 });
