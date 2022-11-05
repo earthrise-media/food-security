@@ -63,7 +63,7 @@ map.on('load', () => {
     var reportvar = dateslist[num] + "-CS"
     map.addSource('ea-data', {
         type: 'geojson',
-        data: 'https://github.com/earthrise-media/food-security/blob/2e653c3057bcdad6e64550d2c23282129f67e39c/fewsnet-experiments/data/join_experiments/ea_grid_1_ffill.geojson'
+        data: 'https://media.githubusercontent.com/media/earthrise-media/food-security/main/fewsnet-experiments/data/join_experiments/ea_grid_1_ffill.geojson'
     });
 
     // create a mapbox layer for each entry in the dateslist
@@ -108,13 +108,11 @@ map.on('load', () => {
         }, "mapbox-mapbox-terrain-dem-v1");
     };
     // map.setPaintProperty("2016-10-CS", 'fill-opacity', 0.8)
-    console.log(dateslist.length)
+    // console.log(dateslist.length)
 
-    // print hello world to the console every 2 seconds 10 times
+
     var i = 0;
     var interval = setInterval(function () {
-        console.log('hello world');
-        console.log(i)
         var datename = document.getElementById('datename');
         datename.innerHTML = dateslist[i];
         var oldreport = dateslist[i - 1] + "-CS"
@@ -129,6 +127,8 @@ map.on('load', () => {
             clearInterval(interval);
         }
     }, 1000);
+
+    
 
 
 
