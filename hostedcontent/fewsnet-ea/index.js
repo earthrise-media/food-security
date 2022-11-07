@@ -63,7 +63,7 @@ map.on('load', () => {
     var reportvar = dateslist[num] + "-CS"
     map.addSource('ea-data', {
         type: 'geojson',
-        data: 'https://media.githubusercontent.com/media/earthrise-media/food-security/main/fewsnet-experiments/data/join_experiments/ea_grid_1_ffill.geojson'
+        data: 'https://earthgenome-foodsecurity.s3.us-west-1.amazonaws.com/ea_grid_1_ffill.geojson'
     });
 
     // create a mapbox layer for each entry in the dateslist
@@ -127,9 +127,6 @@ map.on('load', () => {
             clearInterval(interval);
         }
     }, 1000);
-
-    
-
 
 
 });
