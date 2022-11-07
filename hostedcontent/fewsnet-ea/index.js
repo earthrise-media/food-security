@@ -44,7 +44,6 @@ var dateslist = [
     "2021-02",
     "2021-06"
 ]
-
 mapboxgl.accessToken = 'pk.eyJ1IjoiaGlnaGVzdHJvYWQiLCJhIjoiY2w4YWRueTN5MDRhZjNvbWhmb2hlNXFsZyJ9.o7eX3yCdCqUt0VZxpofVoQ';
 const map = new mapboxgl.Map({
     container: 'map', // container ID
@@ -106,27 +105,36 @@ map.on('load', () => {
                 "fill-outline-color": "hsla(0, 0%, 0%, 0)"
             }
         }, "mapbox-mapbox-terrain-dem-v1");
+        console.log(reportvar)
     };
     // map.setPaintProperty("2016-10-CS", 'fill-opacity', 0.8)
     // console.log(dateslist.length)
 
 
-    var i = 0;
-    var interval = setInterval(function () {
-        var datename = document.getElementById('datename');
-        datename.innerHTML = dateslist[i];
-        var oldreport = dateslist[i - 1] + "-CS"
-        var newreport = dateslist[i] + "-CS"
-        if (i != 0) {
-            map.setPaintProperty(oldreport, 'fill-opacity', 0.0)
-        };
-        map.setPaintProperty(newreport, 'fill-opacity', 0.8)
-        console.log(newreport)
-        i++;
-        if (i === dateslist.length) {
-            clearInterval(interval);
+        function delay(time) {
+            return new Promise(resolve => setTimeout(resolve, time));
         }
-    }, 1000);
+        var i = 0;
+        var waitTime = 1000;
+        var interval = setInterval(function () {
+            var datename = document.getElementById('datename');
+            datename.innerHTML = dateslist[i];
+            var oldreport = dateslist[i - 1] + "-CS"
+            var newreport = dateslist[i] + "-CS"
+            if (i != 0) {
+                map.setPaintProperty(oldreport, 'fill-opacity', 0.0)
+            };
+            map.setPaintProperty(newreport, 'fill-opacity', 0.8)
+            if (i == 43) {
+                delay(waitTime).then(() => map.setPaintProperty(newreport, 'fill-opacity', 0.0));
+            };
+            i++;
+            if (i === dateslist.length) {
+                i = 0;
+            }
+        }, waitTime);
+
+
 
 
 });
