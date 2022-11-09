@@ -11,6 +11,8 @@
     "nuxt": "^3.0.0-rc.13"
   },
   "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "mapbox-gl": "^2.10.0",
     "tachyons": "^4.12.0"
   }
 }
