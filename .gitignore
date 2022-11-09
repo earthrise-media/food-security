@@ -12,3 +12,6 @@
 config.py
 __pycache__
 .ipynb_checkpoints
+
+# Big data
+fewsnet-experiments/data/*
