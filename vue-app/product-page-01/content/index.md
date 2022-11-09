@@ -34,10 +34,13 @@ We see this becoming a sort of open innovation platform and resource hub, a plac
 
 Pakistan’s food security has evolved. Lorem ipsum dolor sit amet.
 
-::big-text{class="bg-gray black"}
+<!-- ::big-text{class="bg-gray black"}
 Animation of IPC ratings over time on map 
 <small class="f5">(Historically, Pakistan's food security is volatile)</small>
-::
+:: -->
+
+<iframe width="100%" height="919" frameborder="0"
+  src="https://observablehq.com/embed/602bbf6301b0dc6f?cells=viewof+selectedDate%2Cviewof+map"></iframe>
 
 Floods and landslides devastated Pakistan in 2022, resulting in millions of people without access to food or safe drinking water.
 
@@ -47,11 +50,13 @@ Pakistan catastrophic event satellite slider comparison
 
 Over 75% of the wheat going to Pakistan comes from Russia or Ukraine.
 
-::big-text{class="bg-gray black"}
+<!-- ::big-text{class="bg-gray black"}
 Sankey of Pakistan's food imports
 <small class="f5">(Cereals highlighted)</small>
+:: -->
 
-::
+<iframe width="100%" height="1012" frameborder="0"
+  src="https://observablehq.com/embed/@earthrise/comtrade-data-processing?cells=icicleChart"></iframe>
 
 ---
 ## Happening Now
@@ -79,6 +84,12 @@ The global food system is affected by droughts and floods, heat stress and wildf
 A 2022 research paper published in One Earth underscores the need for quality data to inform food system policy. We’re curious: What are feasible top-down or bottom-up pathways for different sectors to enhance food security? 
 
 We’re learning that climate data isn’t connected to food. We want to investigate: How might artificial intelligence and machine learning be used to help improve early warning systems to identify and inform those who are most vulnerable to food insecurity challenges? 
+
+### Links to tools
+- Tool 1
+- Tool 2
+- Tool 3
+- Tool 4
 
 ## How We Work
 
