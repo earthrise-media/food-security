@@ -40,7 +40,8 @@ Animation of IPC ratings over time on map
 :: -->
 
 <iframe width="100%" height="919" frameborder="0"
-  src="https://observablehq.com/embed/602bbf6301b0dc6f?cells=viewof+selectedDate%2Cviewof+map"></iframe>
+  src="https://earthrise-media.github.io/food-security/hostedcontent/ipc-pk"></iframe>
+
 
 Floods and landslides devastated Pakistan in 2022, resulting in millions of people without access to food or safe drinking water.
 
