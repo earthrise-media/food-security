@@ -3,11 +3,14 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiaGlnaGVzdHJvYWQiLCJhIjoiY2w4YWRueTN5MDRhZjNvb
 const map = new mapboxgl.Map({
     container: 'map', // container ID
     // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
-    style: 'mapbox://styles/highestroad/cla06v2ro000215q9hz8o9mns', // style URL
-    center: [68.95, 30.22], // starting position [lng, lat]
+    style: 'mapbox://styles/highestroad/claau24wa000315ugcue04hob', // style URL
+    center: [68.5, 29.98],
+  // starting position [lng, lat]
     zoom: 5, // starting zoom4.95/30.22/68.95
     projection: 'mercator',
-    hash: true
+    hash: true,
+    // max zoom
+    minZoom: 4.5,
 });
 
 // map.setFilter('fewsnet', ['==', 'report', reportvar])
@@ -53,7 +56,7 @@ map.on('load', () => {
                 ],
                 "fill-opacity": 0.0,
                 "fill-opacity-transition": {
-                    "duration": 100,
+                    "duration": 1000,
                     "delay": 0
                 },
                 "fill-outline-color": "hsla(0, 0%, 0%, 0)"
@@ -79,7 +82,7 @@ map.on('load', () => {
             return new Promise(resolve => setTimeout(resolve, time));
         }
         var i = 0;
-        var waitTime = 1000;
+        var waitTime = 1300;
         var interval = setInterval(function () {
             var datename = document.getElementById('datename');
             datename.innerHTML = dateslist[i];
