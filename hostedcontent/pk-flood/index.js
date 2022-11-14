@@ -17,23 +17,39 @@ const map = new mapboxgl.Map({
 
 map.on('load', () => {
     var num = 0;
+    // update transition time of mapbox layers
+    map.setPaintProperty('flood-blue', 'fill-opacity-transition', {duration: 1500});
+
+    map.setPaintProperty('flood-red', 'fill-opacity-transition', {duration: 1500});
+    map.setPaintProperty('flood-blue', 'fill-color-transition', {duration: 1500});
+    map.setPaintProperty('floodheat', 'heatmap-opacity-transition', {duration: 1500});
+
+
+
+
 
     function delay(time) {
         return new Promise(resolve => setTimeout(resolve, time));
     }
     var i = 0;
-    var waitTime = 1300;
+    var waitTime = 1700;
     var interval = setInterval(function () {
         console.log(i);
         // if i is even
         if (i % 2 == 0) {
             console.log("even")
-            map.setPaintProperty("flood-blue", 'fill-opacity', 0.0)
-            map.setPaintProperty("flood-red", 'fill-opacity', 0.6)
+            // map.setPaintProperty("flood-blue", 'fill-opacity', 0.0)
+            // map.setPaintProperty("flood-red", 'fill-opacity', 0.5)
+            // change fill color of flood-blue
+            // map.setPaintProperty('flood-blue', 'fill-color', '#66BEC7');
+            map.setPaintProperty("flood-blue", 'fill-opacity', 0.8)
+            map.setPaintProperty("floodheat", 'heatmap-opacity', 0.0)
+                        
         } else{
             console.log("odd")
-            map.setPaintProperty("flood-red", 'fill-opacity', 0.0)
-            map.setPaintProperty("flood-blue", 'fill-opacity', 0.6)
+            // map.setPaintProperty('flood-blue', 'fill-color', '#66BEC7');
+            map.setPaintProperty("flood-blue", 'fill-opacity', 0.0)
+            map.setPaintProperty("floodheat", 'heatmap-opacity', 0.5)
         };
         i++;
         if (i === 20) {
