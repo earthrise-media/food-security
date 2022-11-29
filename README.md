@@ -25,7 +25,7 @@ More data recommended by FAS:
 
 
 ## Current Work Products
-- [Notebook exploring USDA data](./notebooks/usda-data-exploration.ipynb)
+- [Notebook exploring USDA data](./data-exploration/notebooks/usda-data-exploration.ipynb)
 - [Streamlit prototype USDA data explorer](https://cameronkruse-food-security-1-home-uh92w4.streamlitapp.com/)
-- [Notebook exploring a few other datasets](./notebooks/other-data-exploration.ipynb)
-- [Notebook exploring USDA fertilizer data](./notebooks/usda-fertilizer-data.ipynb) (data published in 2019)
+- [Notebook exploring a few other datasets](./data-exploration/notebooks/other-data-exploration.ipynb)
+- [Notebook exploring USDA fertilizer data](./data-exploration/notebooks/usda-fertilizer-data.ipynb) (data published in 2019)
