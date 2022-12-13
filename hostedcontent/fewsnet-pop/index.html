@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FEWSNET & Population</title>
+    <meta
+      name="viewport"
+      content="initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <!-- create a div in the upper left corner that is styled like date-box -->
+    <div id="map-panel" class="map-panel">
+        <div>
+            <input type="checkbox" name="population Layer" id="population" checked/>
+            <label for="checkbox1">Population</label>
+
+            <input type="checkbox" name="satellite-layer" id="sat" />
+            <label for="checkbox2">Satellite</label>
+            <!-- <br></br> -->
+        </div>
+        <div>
+            <!-- horizontal line -->
+            <hr></hr>
+            <sourcefont> Source: FEWSNET </sourcefont>
+            <sourcefont> Date: 10/2018</sourcefont>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

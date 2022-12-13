@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+/* change h2to use montserrat */
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+/* change p to use montserrat */
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+sourcefont {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    font-weight: 1000;
+    margin: 0;
+    padding: 0;
+    color: #2f1f0e;
+  }
+
+/* add a div to hold text in upper left corner of page
+    and give it a background color */
+#map-panel {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
+  margin: 10px;
+}
+
+.foggy-glass {
+  width: 25%;
+  float: left;
+  filter: blur(1px);
+  opacity: 0.5;
+  background: yellow;
+  z-index: 30;
+}
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Courier New', monospace;
+    font-weight: 1000;
+    }
