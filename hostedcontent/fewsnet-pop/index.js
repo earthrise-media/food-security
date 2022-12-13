@@ -63,7 +63,7 @@ map.on("load", () => {
   map.on("click", "population Layer", (e) => {
     new mapboxgl.Popup()
       .setLngLat(e.lngLat)
-      .setHTML("Population: " + e.features[0].properties.population)
+      .setHTML("Population: " + e.features[0].properties.population + "<br>IPC Rating: " + e.features[0].properties["CS-2018-10"])
       .addTo(map);
   });
 
