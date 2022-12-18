@@ -7,7 +7,7 @@
       name="viewport"
       content="initial-scale=1,maximum-scale=1,user-scalable=no"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link
       href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"
       rel="stylesheet"
@@ -20,26 +20,48 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
   </head>
 
   <body>
     <div id="map"></div>
     <!-- create a div in the upper left corner that is styled like date-box -->
     <div id="map-panel" class="map-panel">
-        <div>
-            <input type="checkbox" name="population Layer" id="population" checked/>
-            <label for="checkbox1">Population</label>
-
-            <input type="checkbox" name="satellite-layer" id="sat" />
-            <label for="checkbox2">Satellite</label>
-            <!-- <br></br> -->
+      <div>
+        <h1>Historical FEWS NET Data</h1>
+        <br />
+        <div id="range-value" class="range-value"></div>
+        <div id="range-slider" style="padding: 3px">
+          <input type="range" min="0" step="1" />
+          
         </div>
-        <div>
-            <!-- horizontal line -->
-            <hr></hr>
-            <sourcefont> Source: FEWSNET </sourcefont>
-            <sourcefont> Date: 10/2018</sourcefont>
+        <hr />
+        <div style="padding: 1px">
+          <h2>Style by:</h2>
+          <!-- add a 1px space here -->
+          <div style="padding: 3px"></div>
+          <input
+            type="checkbox"
+            name="population Layer"
+            id="population"
+            checked
+          />
+          <label for="checkbox1">Population</label>
         </div>
+        <hr />
+        <div>
+          <h2>Map Settings:</h2>
+          <div style="padding: 3px"></div>
+          <input type="checkbox" name="satellite-layer" id="sat" />
+          <label for="checkbox2">Satellite</label>
+        </div>
+      </div>
+      <div>
+        <hr />
+        <sourcefont class="sourcefont"> Source: FEWS NET </sourcefont>
+        <div id="date-id" class="sourcefont"></div>
+        
+      </div>
     </div>
     <script src="./index.js"></script>
   </body>

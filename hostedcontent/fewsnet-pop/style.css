@@ -12,7 +12,7 @@ body {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: 600;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 1.2em;
-  font-weight: 200;
+  font-weight: 500;
   margin: 0;
   padding: 0;
 }
@@ -33,21 +33,22 @@ p {
   margin: 0;
   padding: 0;
 }
-sourcefont {
-    display: block;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.8em;
-    font-weight: 1000;
-    margin: 0;
-    padding: 0;
-    color: #2f1f0e;
-  }
+.sourcefont {
+  display: block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8em;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
+  color: #2f1f0e;
+}
 
 /* add a div to hold text in upper left corner of page
     and give it a background color */
 #map-panel {
   font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  font-size: 1em;
+  font-weight: 400;
   position: absolute;
   top: 0;
   left: 0;
@@ -67,7 +68,42 @@ sourcefont {
 }
 
 .mapboxgl-popup {
-    max-width: 400px;
-    font: 12px/20px 'Courier New', monospace;
-    font-weight: 1000;
-    }
+  max-width: 400px;
+  font: 12px/20px "Courier New", monospace;
+  font-weight: 1000;
+}
+
+#range-slider {
+  width: 400px;
+}
+
+#range-slider input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+
+#range-slider input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 20px;
+  width: 10px;
+  background: #96948d;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#range-slider input[type="range"]::-moz-range-thumb {
+  height: 20px;
+  width: 20px;
+  background: #666;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#range-value {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
