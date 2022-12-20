@@ -115,6 +115,7 @@ map.on("load", () => {
       $("#range-value").html("Report Date: " + reportDates[this.value].slice(8, 10) + "/" + reportDates[this.value].slice(3, 7));
       // console.log the 3-5 characters of reportDates[this.value]
       console.log(reportDates[this.value]);      // update paint settings of population layer
+      $("#date-id").html(reportDates[this.value].slice(8, 10) + "/" + reportDates[this.value].slice(3, 7));
       map.setPaintProperty(
         "population Layer",
         "circle-color",
@@ -151,7 +152,7 @@ map.on("load", () => {
         "Population: " +
           e.features[0].properties.population +
           "<br>IPC Rating: " +
-          e.features[0].properties["CS-2018-10"]
+          e.features[0].properties[reportDates[$("#range-slider input[type='range']").val()]]
       )
       .addTo(map);
   });
