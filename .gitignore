@@ -1,9 +1,9 @@
 # Local Netlify folder
 .netlify
 
-#MacOS
+#System
 .DS_Store
-/.ipynb_checkpoints
+.vscode
 
 # QGIS files
 .qgz
@@ -15,3 +15,6 @@ __pycache__
 
 # Big data
 fewsnet-experiments/data/*
+
+# node
+node_modules
