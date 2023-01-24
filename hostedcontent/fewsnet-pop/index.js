@@ -189,7 +189,7 @@ const chart = c3.generate({
   axis: {
     x: {
       type: 'category',
-      categories: reportDates.map(x => x.replace("CS-", "").replace(/-\d\d/,"")),
+      categories: reportDates.map(x => x.replace("CS-", "").replace("-"," ")),
       tick: { count: 5, rotate: 0, culling: false },
       height: 50
     },
