@@ -107,3 +107,14 @@ p {
   font-size: 1.2em;
   font-weight: 500;
 }
+
+.c3-axis-y text, .c3-axis-x text 
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+.c3-axis-x text {
+  font-size: .9em;
+}
