@@ -111,10 +111,18 @@ p {
 .c3-axis-y text, .c3-axis-x text 
 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2em;
-  font-weight: 500;
+  font-size: 1.0em;
+  font-weight: 600;
 }
 
 .c3-axis-x text {
   font-size: .9em;
+}
+
+.c3-axis-x path {
+  stroke: rgb(151, 150, 148) !important;
+}
+
+.c3-axis-y path {
+  stroke: rgb(151, 150, 148) !important;
 }

@@ -45,8 +45,7 @@ reportDates = [
   "CS-2021-06",
   "CS-2021-10",
 ];
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiaGlnaGVzdHJvYWQiLCJhIjoiY2w4YWRueTN5MDRhZjNvbWhmb2hlNXFsZyJ9.o7eX3yCdCqUt0VZxpofVoQ";
+mapboxgl.accessToken = "pk.eyJ1IjoiaGlnaGVzdHJvYWQiLCJhIjoiY2w4YWRueTN5MDRhZjNvbWhmb2hlNXFsZyJ9.o7eX3yCdCqUt0VZxpofVoQ";
 const map = new mapboxgl.Map({
   container: "map", // container ID
   // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
@@ -56,30 +55,13 @@ const map = new mapboxgl.Map({
   hash: true,
 });
 
-var popStyle = [
-  "interpolate",
-  ["exponential", 1.99],
-  ["zoom"],
-  4,
-  ["interpolate", ["linear"], ["get", "population"], 1, 0.1, 20000, 1],
-  11,
-  ["interpolate", ["linear"], ["get", "population"], 1, 12.5, 20000, 125],
-];
+var popStyle = ["interpolate", ["exponential", 1.99], ["zoom"], 4, ["interpolate", ["linear"], ["get", "population"], 1, 0.1, 20000, 1], 11, ["interpolate", ["linear"], ["get", "population"], 1, 12.5, 20000, 125]];
 
-var standardStyle = [
-  "interpolate",
-  ["exponential", 1.99],
-  ["zoom"],
-  4,
-  1,
-  11,
-  125,
-];
+var standardStyle = ["interpolate", ["exponential", 1.99], ["zoom"], 4, 1, 11, 125];
 
 // map.setFilter('fewsnet', ['==', 'report', reportvar])
 
 map.on("load", () => {
-
   $('input[type="checkbox"]').change(function () {
     var checkboxName = $(this).attr("name");
     if (this.checked) {
@@ -114,25 +96,9 @@ map.on("load", () => {
       console.log(this.value);
       $("#range-value").html("Report Date: " + reportDates[this.value].slice(8, 10) + "/" + reportDates[this.value].slice(3, 7));
       // console.log the 3-5 characters of reportDates[this.value]
-      console.log(reportDates[this.value]);      // update paint settings of population layer
+      console.log(reportDates[this.value]); // update paint settings of population layer
       $("#date-id").html(reportDates[this.value].slice(8, 10) + "/" + reportDates[this.value].slice(3, 7));
-      map.setPaintProperty(
-        "population Layer",
-        "circle-color",
-        [
-          "match",
-          ["get", reportDates[this.value]],
-          [1],
-          "#a4cdad",
-          [2],
-          "hsl(52, 98%, 70%)",
-          [3],
-          "hsl(28, 98%, 56%)",
-          [4],
-          "hsl(0, 100%, 43%)",
-          "hsla(0, 0%, 62%, 0)"
-      ]
-      );
+      map.setPaintProperty("population Layer", "circle-color", ["match", ["get", reportDates[this.value]], [1], "#a4cdad", [2], "hsl(52, 98%, 70%)", [3], "hsl(28, 98%, 56%)", [4], "hsl(0, 100%, 43%)", "hsla(0, 0%, 62%, 0)"]);
     });
   });
   // console.log length of reportDates
@@ -143,27 +109,20 @@ map.on("load", () => {
   $("#range-value").html("Report Date: " + reportDates[reportDates.length - 1].slice(8, 10) + "/" + reportDates[reportDates.length - 1].slice(3, 7));
   $("#date-id").html(reportDates[reportDates.length - 1].slice(8, 10) + "/" + reportDates[reportDates.length - 1].slice(3, 7));
 
-
-
   map.on("click", "population Layer", (e) => {
     new mapboxgl.Popup()
       .setLngLat(e.lngLat)
-      .setHTML(
-        "Population: " +
-          e.features[0].properties.population +
-          "<br>IPC Rating: " +
-          e.features[0].properties[reportDates[$("#range-slider input[type='range']").val()]]
-      )
+      .setHTML("Population: " + e.features[0].properties.population + "<br>IPC Rating: " + e.features[0].properties[reportDates[$("#range-slider input[type='range']").val()]])
       .addTo(map);
 
     var chartData = reportDates.map((date) => {
       var val = e.features[0].properties[date];
       if (val > 5 || val == undefined) {
         val = null;
-      }      
+      }
       return val;
     });
-    chart.load({columns: [['data'].concat(chartData)]});
+    chart.load({ columns: [["data"].concat(chartData)] });
   });
 
   // Change the cursor to a pointer when
@@ -180,31 +139,33 @@ map.on("load", () => {
 });
 
 const chart = c3.generate({
-  bindto: '#chart',
+  bindto: "#chart",
   data: {
-    columns: [['data'].concat(reportDates)],
+    columns: [["data"].concat(reportDates)],
     names: { data: "IPC Phase" },
-    type: 'line',
+    type: "line",
   },
   axis: {
     x: {
-      type: 'category',
-      categories: reportDates.map(x => x.replace("CS-", "").replace("-"," ")),
+      type: "category",
+      categories: reportDates.map((x) => x.replace("CS-", "").replace("-", "/")),
       tick: { count: 5, rotate: 0, culling: false },
-      height: 50
+      height: 50,
+      color: "red"
     },
-    y: { max: 5, min: 0, tick: {count: 6, values: [0,1,2,3,4,5] }}
+    y: { max: 5, min: 0, tick: { count: 6, values: [0, 1, 2, 3, 4, 5] } },
   },
   size: {
     height: 160,
   },
   line: {
-    connect_null: false
+    connect_null: false,
   },
   point: {
-    show: false
+    show: false,
   },
   legend: {
-    show: false
-  }
+    show: false,
+  },
+  // change color of axis to red
 });
