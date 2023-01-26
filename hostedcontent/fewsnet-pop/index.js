@@ -52,7 +52,7 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/highestroad/clbjz05by000a15posi075rb4", // style URL
   center: [29.553, 9.389], // starting position [lng, lat]
   zoom: 7, // starting zoom
-  hash: true,
+  // hash: true,
 });
 
 var popStyle = ["interpolate", ["exponential", 1.99], ["zoom"], 4, ["interpolate", ["linear"], ["get", "population"], 1, 0.1, 20000, 1], 11, ["interpolate", ["linear"], ["get", "population"], 1, 12.5, 20000, 125]];

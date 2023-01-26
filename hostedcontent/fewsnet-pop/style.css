@@ -29,7 +29,7 @@ h2 {
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
@@ -125,4 +125,19 @@ p {
 
 .c3-axis-y path {
   stroke: rgb(151, 150, 148) !important;
+}
+
+/* make a nice gray button with a drop shadow */
+.more-info-button {
+  background-color: #96948d;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.5));
 }

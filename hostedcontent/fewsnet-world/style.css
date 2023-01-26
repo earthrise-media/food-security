@@ -4,7 +4,7 @@ body {
 }
 
 #map {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     width: 100%;
@@ -30,7 +30,7 @@ h2 {
 p {
     font-family: 'Montserrat', sans-serif;
     font-size: 1em;
-    font-weight: 100;
+    font-weight: 400;
     margin: 0;
     padding: 0;
 }
@@ -38,9 +38,12 @@ p {
 /* add a div to hold text in upper left corner of page
     and give it a background color */
 #date-box {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     padding: 10px;
+    height: 60px;
+    width: 200px;
+    text-align: center;
     background-color: rgba(255,255,255,0.5);
 }
